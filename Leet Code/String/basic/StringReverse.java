@@ -1,6 +1,8 @@
+import java.util.*;
 public class StringReverse{
     public static void main(String[]args){
-        String names="siva karthikeyan";
+        Scanner sc=new Scanner(System.in);
+        String names=sc.next();
         StringReverse obj=new StringReverse();
         String b=obj.reverse(names);
         System.out.print("output:"+b);
